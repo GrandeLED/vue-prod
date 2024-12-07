@@ -1,0 +1,28 @@
+@import "@/styles/globals";
+
+.general_money {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.3rem;
+  color: $primary-200;
+  padding: 0.625rem;
+  padding-bottom: 2rem;
+  background-color: $primary-700;
+  box-shadow: 0px 0px 10px 0px #232323;
+  &-text {
+    font-size: 0.8rem;
+  }
+  &-count {
+    font-size: 1.5rem;
+  }
+}
+.history-btn {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  background: none;
+  border: none;
+}

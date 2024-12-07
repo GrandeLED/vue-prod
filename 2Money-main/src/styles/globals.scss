@@ -1,0 +1,33 @@
+@import "./colors.scss";
+
+@font-face {
+  font-family: "Monterat-reg";
+  src: url("@/assets/fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Monterat-bold";
+  src: url("@/assets/fonts/Montserrat-Bold.ttf");
+}
+
+body {
+  background-color: #646464;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Monterat-reg";
+  list-style-type: none;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Monterat-bold";
+}
